@@ -1,0 +1,143 @@
+:root {
+    --bg: #1e1e2f;
+    --text: #ffffffcc;
+    --accent: #00c4b4;
+    --card-bg: #2a2a40;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #141420;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--accent);
+}
+
+.controls {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.controls input {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: none;
+    background: var(--card-bg);
+    color: var(--text);
+    outline: none;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: none;
+    background: var(--accent);
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.results {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.emote-card {
+    background: var(--card-bg);
+    padding: 1rem;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.emote-card img {
+    max-height: 80px;
+    max-width: 250px;
+    height: auto;
+    object-fit: contain; /* oder remove, optional */
+    margin-bottom: 0.5rem;
+}
+
+.emote-slug {
+    font-size: 0.9rem;
+    color: var(--accent);
+    overflow: hidden;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: auto;
+}
+
+#dec{
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('https://static-pub.highwebmedia.com/uploads/avatar/2023/09/24/11/22/ef1038c309a0f3d3b04474735214af6019b24b55.jpg');
+}
+
+#hgr {
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('https://static-pub.highwebmedia.com/uploads/avatar/2024/04/01/14/04/3372ad7ec867d362afe9d2df2c2c669bbbfa3d92.jpg');
+}
+
+#tsi {
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('https://static-pub.highwebmedia.com/uploads/avatar/2024/06/13/07/31/0476ec824d38dc1ddbb9b31289b6dd808a511e48.jpg');
+}
+
+#juliamemes {
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('https://static-pub.highwebmedia.com/uploads/avatar/2024/07/22/18/07/3c5b1113aff45d941edef4f7bc127722d7213eba.jpg');
+}
+
+#nsf {
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('https://static-pub.highwebmedia.com/uploads/avatar/2023/09/04/10/41/108d14e6dace4e98a2eff60f8c9187de7dbc39d3.jpg');
+}
+
+#ius {
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    background-image: url('https://static-pub.highwebmedia.com/uploads/avatar/2023/08/25/02/39/888bbc665f872291f8cc28385a7d66e90da51343.jpg');
+}
